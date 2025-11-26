@@ -1,0 +1,36 @@
+.destination {
+  font-family: sans-serif;
+  text-align: center; 
+}
+
+.optiontext {
+  display: flex;
+  justify-content: center; 
+  gap: 40px; 
+  margin: 20px 0; 
+}
+
+.option {
+  cursor: pointer;
+  padding: 8px 16px; 
+  transition: color 0.2s ease, transform 0.2s ease;
+  border-radius: 8px; 
+  border: 1px solid transparent; 
+}
+
+.option:hover {
+  color: #555;
+  transform: scale(1.05); 
+}
+
+.option.active {
+  color: blue;
+  font-weight: bold;
+  border-color: blue; 
+}
+
+.image-container img {
+  width: 300px;
+  border-radius: 8px;
+  margin-top: 20px;
+}

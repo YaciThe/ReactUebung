@@ -1,0 +1,16 @@
+.Roombox img {
+    height: 10vh;
+    width: auto;
+}
+
+.Roombox {
+    background-color: rgb(150, 193, 150);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 150px;
+    padding: 20px;
+}
