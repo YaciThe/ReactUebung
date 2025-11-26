@@ -3,13 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Title } from './Title'
-import { Card } from './Card/Card.jsx'
-import { Rooms } from './Smarthome/Rooms.jsx'
+import { Card } from './components/Card/Card.jsx'
+import { Rooms } from './components/Smarthome/Rooms.jsx'
 import living from './assets/living.png'
 import bed from './assets/bed.png'
 import kitchen from './assets/kitchen.png'
-import { GetData } from './GetData/GetData.jsx'
-import { Destination } from './Vacation/Destination.jsx'
+import { GetData } from './components/GetData/GetData.jsx'
+import { Destination } from './components/Vacation/Destination.jsx'
 
 function App() {
   const [count, setCount] = useState(2)

@@ -1,5 +1,5 @@
 
-import reactLogo from '../assets/react.svg'
+import reactLogo from '../../assets/react.svg'
 import './Card.css'
 
 // ein punkt importiert aus demselben ordner, zwei punkt aus einem überordner
@@ -12,7 +12,7 @@ export function Card ({title,logo,link,linktext}) {
      
 
         
-            <img src={logo} />
+            <img className="image" src={logo} />
 
             <a href={link}> {linktext}</a>
 
