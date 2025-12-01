@@ -1,0 +1,10 @@
+.smarthome-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.smarthome-list .Roombox {
+  flex: 0 0 auto;
+}

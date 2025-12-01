@@ -1,0 +1,10 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.card-list .Cardbox {
+  min-width: 180px;
+}

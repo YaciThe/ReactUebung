@@ -14,7 +14,7 @@ export function Card ({title,logo,link,linktext}) {
         
             <img className="image" src={logo} />
 
-            <a href={link}> {linktext}</a>
+            <a href={link}>{linktext ?? title ?? 'Open'}</a>
 
         </div>
 
